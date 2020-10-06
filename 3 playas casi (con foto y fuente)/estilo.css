@@ -1,0 +1,107 @@
+
+/* ----------------ENCABEZADO--------------------------- */
+
+body {
+   /* background-image: url(https://www.reportur.com/wp-content/uploads/2020/03/PLaya-Norte-Islasmujeres2.jpg);*/
+    background-image: url(https://info7rm.blob.core.windows.net.optimalcdn.com/images/2017/04/04/punta-cana-2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-origin: content-box;
+    font-family: 'Raleway', sans-serif;
+}
+h1, .alternativeTitle{
+    font-family: 'Ubuntu', sans-serif;
+}
+.header {
+    display: flex;
+    background: none;
+    background-image: url(https://info7rm.blob.core.windows.net.optimalcdn.com/images/2017/04/04/punta-cana-2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-origin: content-box;
+    height: 550px;
+    margin-bottom: 0px;
+}
+
+.header2 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------------BARRA DE NAVEGACION----------------------- */
+.barnav1 {
+    display: flex;
+    height: auto;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.barnav2 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.barnav3 a {
+    padding: 8px 20px;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+}
+
+#integrantes .container .section-heading {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(105, 105, 253);
+}
+
+#integrantes .container .sectipn-subheading {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(105, 105, 253);
+}
+
+
+/* ------------------CARRUSEL DE FOTOS-------------------*/
+#cozumel {
+    color: rgb(255, 255, 255);
+}
+@media (min-width: 700px) {
+    #carouselGon {
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
+/* ------------------CARDS INTEGRANTES------------------*/
+.card {
+    background-color: important;
+    border: none important;
+    
+}
+.card-title {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+
+/* -------------------FOOTER------------------------------*/
+.footer {
+    background-color: rgb(221, 221, 221);
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+.map {
+    width: 50px;
+}
+
+html{
+    scroll-behavior: smooth;
+}

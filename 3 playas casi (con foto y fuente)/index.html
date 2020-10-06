@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Meta: para que la página sea RESPONSIVE -->
+    <meta name="keywords" content="proyecto, programación, css, html, rollingcode, argentina">
+    <!-- Meta: PALABRAS CLAVES -->
+    <meta name="author" content="Equipo 2">
+    <meta name="description" content="Viajes al Caribe">
+    <title> Al Caribe </title> <!-- TITULO EN LA PESTAÑA DEL NAVEGADOR -->
+    <link rel="icon" href="https://www.navarrosantafe.com/wp-content/uploads/2020/05/187242.png">
+    <!-- ICONO DE LA PESTAÑA DEL NAVEGADOR -->
+
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;900&family=Raleway:wght@300;400&family=Ubuntu&display=swap" rel="stylesheet">
+    <!-- font-family: 'Montserrat', sans-serif; -->
+    <!-- font-family: 'Noto Sans JP', sans-serif;
+     font-family: 'Raleway', sans-serif;
+     font-family: 'Ubuntu', sans-serif; -->
+
+    <!-- CSS only BOOTSTRAP-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- ICONOS DE FONT-AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+
+    <!-- ENLACE A MI HOJA DE ESTILO EXTERNO CSS -->
+    <link rel="stylesheet" href="estilo.css">
+
+    <style>
+
+    </style>
+    <!--ESTILO INTERNO-->
+
+</head>
+
+<body>
+    <!-- --------------------ENCABEZADO / HEADER----------------------------------------- -->
+
+    <div class="jumbotron jumbotron-fluid header" id="1">
+        <div class="container header2">
+            <h1 class="display-2"><strong>AL CARIBE</strong></h1>
+            <p class="lead alternativeTitle">
+                Cumple el sueño de tu Luna de Miel
+            </p>
+        </div>
+    </div>
+
+    <!-- ---------------------BARRA DE NAVEGACIÓN---------------------------------------- -->
+    <!-- CONTENEDOR DE LA BARRA -->
+    <div class="jumbotron jumbotron-fluid sticky-top barnav1">
+        <div class="container barnav2">
+
+            <!-- BARRA DE NAVEGACIÓN -->
+            <nav class="nav navbar-expand-lg navbar-light navbar-brand">
+
+                <!-- BOTON HAMBURGUEZA -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse barnav3" id="navbarNav">
+                    <a class="nav-link active" href="#1">Inicio</a>
+                    <a class="nav-link active" href="#carouselGon">El Caribe</a>
+                    <a class="nav-link active" href="#3">Las Islas</a>
+                    <a class="nav-link active" href="#integrantes">Tus Guías</a>
+                    <a class="nav-link active" href="#contacto">Viajar</a>
+                    <a class="nav-link disabled" href="#6">Contacto</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+    <!-- --------------------CARRUSEL DE FOTOS-------------------------------------------- -->
+    ​<section id="carouselGon" class="">
+        ​<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/isla-mujeresmexico.jpg" class="d-block w-100" alt="Imagen isla-mujeresmexico">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-body">Isla Mujeres, México</h5>
+                        <!--<p class="text-body">Sus aguas tibias y transparentes son el hogar perfecto para los delfines y tortugas, y nadar con ellos es una de las más atractivas actividades que pueden realizarse aquí.</p>-->
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Bioluminiscencia-Holbox-.jpg" class="d-block w-100"
+                        alt="Playa de Holbox, Bioluminiscente">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Holbox, México</h5>
+                        <!--<p>Bioluminiscencia, uno de los fenómenos naturales más bellos del mundo. Imperdible
+                            Experiencia.</p>-->
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="img/Cozumel_05.jpg" class="d-block w-100" alt="Cozumel, Mexico">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-dark">Cozumel, México</h5>
+                        <!--<p class="text-dark">Cozumel es uno de los mejores lugares para practicar snorkeling y buzeo gracias a sus antiguos arrecifes de piedra caliza..</p>-->
+                    </div>
+                    <!-- </div> -->
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            ​
+        </div>
+    </section>
+
+    <!--Quiénes somos y qué hacemos-->
+    <section class="container mb-4">
+        <div class="jumbotron">
+            <h1 class="display-4 text-center alternativeTitle">Nosotros</h1>
+            <p class="lead">Somos 4 amigos que unos une el mismo Sentimiento, "el Amor a las Playas". Cansados de
+                escuchar siempre la misma situación, personas que viajan y no saben que hacer en su destino más que vida
+                de hotel y arena, o el desconocimientos total de aventuras o paisajes, es por eso que estamos aquí para
+                ofrecerte tu mejor Viaje, o bien, tu Luna de Miel soñada en bellos paraisos del caribe, desde el
+                alojamiento hasta todas las actividades y aventuras que puedes realizar en éstos tres lugares que te
+                ofrecemos. Mirá, Proyectá y elegí donde querés estar que Nosotros nos encargamos que la pases bien.</p>
+        </div>
+        <article class="row text-center shadow p-3 mb-5 bg-white rounded">
+            <div class="col-sm-12 col-md-4">
+                <i class="fas fa-concierge-bell fa-3x"></i>
+                <p class="lead">Atención al Cliente</p>
+                <p>Estamos para lo que necesites, desde cualquier punto del planeta. Puedes contactarnos a través de
+                    nuestras redes o bien dejanos un mensaje y nos comunicaremos contigo.</p>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <i class="fas fa-thumbs-up fa-3x"></i>
+                <p class="lead">Guía Turistica</p>
+                <p>Amplios conocimientos sobre el destino que elijas, desde la Hitoria, Cultura y el arte hasta la
+                    Gastronomía, Paisajes y todas las Actividades que harán de tu viaje momentos que quedarán para
+                    siempre.</p>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <i class="fas fa-utensils fa-3x"></i>
+                <p class="lead">Servicios de Calidad</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque totam soluta velit quos quae neque
+                    facere,
+                    iure quia atque explicabo?</p>
+            </div>
+        </article>
+    </section>
+
+    ​
+    <!-- --------------------MAIN / 3 SECCIONES DE PLAYAS CON MODALES--------------------- -->
+    <!--Islas Mujeres-->
+    <main text-center id="3">
+        <h2 class="text-center display-4 alternativeTitle">ELEGÍ TU DESTINO</h2>
+        <div class="card m-5 card text-center style=" max-width: 1200px;">
+            <div class="row no-gutters">
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Islas Mujeres - México</h5>
+                        <p class="card-text">Esta Isla te ofrece multiples opciones tentadoras y relativamente
+                            económicas. Actividades en el mar, como nadar junto a peces tropicales, también
+                            subir a kayak, botes o hacer windsurf en suaves arenas. La comida es muy buena sobre todo si
+                            te gusta cenar mariscos. En tierra, no solo es tomar sol, podés bailar ritmos latinos, hacer
+                            tour en moto o bien quedarte en algunas de las barras que se enuentran en las playas y
+                            disfrutar de una deliciosa bebida a tu gusto.</p>
+                        <p><em> "Realmente iniciar nuestra luna de miel por Isla Mujeres, hizo que
+                                nuestro amor por la naturaleza esté a flor de piel cada minuto, cada día, es imposible
+                                no conectarse con tanta Belleza alrededor y el sonido del Mar que nunca se calla...
+                                Yessica de Tucumán viajó con su pareja".</em></p>
+                        <p class="card-text"><small class="text-muted">
+                                <button type="button" class="btn btn-primary" data-toggle="modal"
+                                    data-target="#exampleModal1">
+                                    <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+                                    Mirá lo Bello que es
+                                </button>
+                            </small></p>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel1">Galería</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="img/islas mujeres casorio1.jpg"
+                                            alt="recien casados caminando en arena" class="w-100 my-2">
+                                        <img src="img/islas mujeres casorio 2.jpg" alt="pareja abrazados mirando el mar"
+                                            class="w-100 my-2">
+                                        <img src="img/islas mujeres 3.jpg" alt="cena romantica playa atardecer"
+                                            class="w-100 my-2">
+                                        <img src="img/isla mujeres 4.jpg" alt="playa isla mujer" class="w-100 my-2">
+                                        <img src="img/isla mujeres 5.jpg" alt="playa puente isla mujer"
+                                            class="w-100 my-2">
+                                        <img src="img/Isla Mujer 6.jpg" alt="playa sombrillas isla mujer"
+                                            class="w-100 my-2">
+                                        <img src="img/Isla mujer 7.jpg" alt="estatuas fondo oceano" class="w-100 my-2">
+                                        <img src="img/Isla mujer 8.jpg" alt="sillas carpas playa" class="w-100 my-2">
+                                        <img src="img/isla-mujeres9.jpg" alt="cartel isla mujer pareja carrito golf"
+                                            class="w-100 my-2">
+
+                                        <video class="w-100 h-100" controls>
+                                            <source src="img/Isla Mujeres Drone Video 4k 2017.mp4" type="video/mp4">
+                                        </video>
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary"
+                                            data-dismiss="modal">Cerrar</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4 m-auto px-3">
+                    <img src="img/isla mujeres tapajpg.jpg" class="card-img" alt="playa d isla mujer">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--Islas Holbox-->
+    <main text-center>
+        <div class="card m-5 card text-center style=" max-width: 1200px;">
+            <div class="row no-gutters">
+                <div class="col-md-4 m-auto px-3">
+                    <img src="img/holbox.jpg" class="card-img" alt="playa d isla mujer">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Isla Holbox - México</h5>
+                        <p class="card-text my-3">Flamencos, pelícanos y garzas… ¡increíble! La Isla Holbox es apreciada
+                            por
+                            los estudiosos de las aves debido a su población de vida aviar exótica. Situada cerca de la
+                            Península de Yucatán, la isla también es un punto muy concurrido para el avistamiento de
+                            tiburones ballena y aquellos que practican kiteboarding adoran las aguas poco profundas y
+                            las playas extensas. Las calles de arena blanca están prácticamente intactas ya que la
+                            mayoría de los turistas prefieren ir a divertirse a Cancún que está muy cerca. Zambullirte
+                            en Yalahao Lagoon es una locura, casi tanto como el lugar.
+                        </p>
+                        <p><em> "Sinceramente, viajar y conocer éste maravilloso lugar hace que cada dia lo viva como si
+                                fuera el primero y el ultimo a la vez, todo, absolutamente todo lo que se puede hacer en
+                                esta playa me dibuja una sonrisa de alegría...Pablo y su pareja viajaron desde
+                                Rosario".</em>
+                        </p>
+                    </div>
+
+                    <!-- Button trigger modal -->
+                    <button class="btn btn-primary my-2" type="button" data-toggle="modal" data-target="#exampleModal">
+                        <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+                        Entrá y conocé más!
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Galería</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="img/HolBOX.1a.jpg" alt="Pareja sentadas tomadas de la mano"
+                                        class="w-100 my-2">
+                                    <img src="img/holbox1.jpg" alt="Camino de arena al mar" class="w-100 my-2">
+                                    <img src="img/Holbox2.jpg" alt="Imagen drone costa" class="w-100 my-2">
+                                    <img src="img/Holbox3.jpg" alt="Sombrillas playa mar" class="w-100 my-2">
+                                    <img src="img/Holbox 4.jpg" alt="Mujer cama paraguaya en el mar" class="w-100 my-2">
+                                    <img src="img/Holbox 5.jpg" alt="Pueblo comercio" class="w-100 my-2">
+                                    <img src="img/Holbox6.jpg" alt="Aves en la playa" class="w-100 my-2">
+                                    <img src="img/Holbox 7.png" alt="Mesa servida cena" class="w-100 my-2">
+                                    <video class="w-100 h-100" controls>
+                                        <source src="img/ISLA HOLBOX DRONE 2018.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </main>
+
+    <!--Isla Cozumel-->
+    <main text-center>
+        <div class="card m-5 card text-center style=" max-width: 1200px;">
+            <div class="row no-gutters">
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Cozumel - México</h5>
+                        <p class="card-text">Uno de los principales destinos de buceo en el mundo por sus arrecifes de
+                            coral como de libros de cuento, la isla de Cozumel alberga además una variedad de playas
+                            naturales. Elegí una playa con suaves arenas blancas para relajarte o practicar snorkeling
+                            rodeado de vistas rocosas. Un destino tanto para la aventura como para el romance, Cozumel
+                            tiene clima caribeño todo el año, una selva ilimitada y abundante vida nocturna.
+                        </p>
+                        <p><em> "Culminar nuestro viaje de luna de miel en un paraíso como Cozumel nos llenó de alegría,
+                                de paz y regresamos más unidos que nunca, ésta isla está pensada pura y exclusivamente
+                                para pasarla de bien, solos o en pareja, es el paraíso de donde uno no quiere
+                                regresar... Marisol y Domingo recién casados de Tierra del Fuego"</em>
+                        </p>
+                        <p class="card-text mt-3"><small class="text-muted">
+                                <button type="button" class="btn btn-primary" data-toggle="modal"
+                                    data-target="#exampleModal3"><span class="spinner-grow spinner-grow-sm"
+                                        role="status" aria-hidden="true"></span>
+                                    Mirá lo Bello que es
+                                </button>
+                            </small></p>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Galería</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="img/cozumel pareja 3.png" alt="pareja buceando" class="w-100 my-2">
+                                        <img src="img/Cozumel recien casados.jpg" alt="pareja abrazados cena romántica"
+                                            class="w-100 my-2">
+                                        <img src="img/Cozumel.jpg" alt="palmeras estatua cozumel" class="w-100 my-2">
+                                        <img src="img/cozumel2.jpg" alt="buceo estrella del mar" class="w-100 my-2">
+                                        <img src="img/Cozumel5.jpg" alt="puente de madera playa mar" class="w-100 my-2">
+                                        <img src="img/Cozumel 3.jpg" alt="restaurante con vista al mar"
+                                            class="w-100 my-2">
+                                        <img src="img/Cozumel7.jpg" alt="bote en playa palmeras" class="w-100 my-2">
+                                        <img src="img/Cozumel9.jpg" alt="barra de tragos pileta barco"
+                                            class="w-100 my-2">
+                                        <video class="w-100 h-100" controls>
+                                            <source src="img/Cozumel Mexico   Drone Footage.mp4" type="video/mp4">
+                                        </video>
+
+                                    </div>
+                                    <div class="modal-footer my-2">
+                                        <button type="button" class="btn btn-primary"
+                                            data-dismiss="modal">Cerrar</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-4 px-3">
+                    <img src="img/cozumel_playa-cielo.jpg" class="card-img" alt="playa d isla mujer">
+                </div>
+            </div>
+        </div>
+    </main>
+    </section>
+
+    <!-- --------------------------TARJETAS CON LOS INTEGRANTES-------------------------- -->
+    ​<section id="integrantes" class="container-lg w-80">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading alternativeTitle">Conoce a nuestros organizadores de viajes</h2>
+                <h5 class="sectipn-subheading ">
+                    Ellos son los indicados para ayudarte a tener la mejor experiencia en estas preciosas playas! No
+                    dudes en contactarlos!
+                </h5>
+            </div>
+        </div>
+        <div class="card-deck ">
+            <div class="card text-white mt-3">
+                <img src="img/WhatsApp Image 2020-09-21 at 09.52.45.jpeg" class="card-img-top rounded-circle"
+                    alt="Img Gabriel Diaz">
+                <div class="card-body">
+                    <h5 class="card-title text-muted">Gabriel Diaz</h5>
+                    <p class="card-text text-muted">Gaby es nuestro Capitán en esta aventura. Con él podrás concretar el
+                        viaje que siempre soñaste.
+                    </p>
+                    <p class="card-text"><small class="text-muted">Alias: El Negro</small></p>
+                    <div class="card-text text-center">
+                        <a href="http://facebook.com" target="_blank">
+                            <i class="fab fa-facebook-square fa-2x"></i>
+                        </a>
+                        <a href="http://twitter.com" target="_blank">
+                            <i class="fab fa-twitter fa-2x"></i>
+                        </a>
+                        <a href="http://linkedin.com" target="_blank">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                        <a href="http://instagram.com" target="_blank">
+                            <i class="fab fa-instagram fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="card text-white mt-3">
+                <img src="img/WhatsApp Image 2020-09-21 at 10.54.09.jpeg" class="card-img-top rounded-circle"
+                    alt="Gonzalo Scarlata">
+                <div class="card-body">
+                    <h5 class="card-title text-muted">Gonzalo Scarlata</h5>
+                    <p class="card-text text-muted">Gonza nos acompaña desde el principio, de él nacen las ideas más
+                        locas que te puedas imaginar!
+                    </p>
+                    <p class="card-text"><small class="text-muted">Alias: Gon</small></p>
+                    <div class="card-text text-center">
+                        <a href="https://www.facebook.com" target="_blank">
+                            <i class="fab fa-facebook-square fa-2x"></i>
+                        </a>
+                        <a href="http://twitter.com" target="_blank">
+                            <i class="fab fa-twitter fa-2x"></i>
+                        </a>
+                        <a href="http://linkedin.com" target="_blank">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                        <a href="http://instagram.com" target="_blank">
+                            <i class="fab fa-instagram fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="card text-white mt-3">
+                <img src="img/WhatsApp Image 2020-09-21 at 18.29.56.jpeg" class="card-img-top rounded-circle"
+                    alt="Marco Ituarte">
+                <div class="card-body">
+                    <h5 class="card-title text-muted">Marco Ituarte</h5>
+                    <p class="card-text text-muted">Gracias a su experiencia, Marquito sabe muy bien como enfrentarse a
+                        cualquier contratiempo durante viajes.</p>
+                    <p class="card-text"><small class="text-muted">Alias: Marquinho</small></p>
+                    <div class="card-text text-center">
+                        <a href="https://www.facebook.com" target="_blank">
+                            <i class="fab fa-facebook-square fa-2x"></i>
+                        </a>
+                        <a href="http://twitter.com" target="_blank"">
+                            <i class=" fab fa-twitter fa-2x"></i>
+                        </a>
+                        <a href="http://linkedin.com" target="_blank"">
+                            <i class=" fab fa-linkedin fa-2x"></i>
+                        </a>
+                        <a href="http://instagram.com" target="_blank"">
+                            <i class=" fab fa-instagram fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="card text-white mt-3">
+                <img src="img/20200216_173320.jpg" class="card-img-top rounded-circle" alt="Marcos Gallo">
+                <div class="card-body">
+                    <h5 class="card-title text-muted">Marcos Gallo</h5>
+                    <p class="card-text text-muted">Marcos será el indicado de mostrarte los lugares más lindos de cada
+                        destino, pues él es nuestro guia.
+                    </p>
+                    <p class="card-text"><small class="text-muted">Alias: El pelao</small></p>
+                    <div class="card-text text-center ">
+                        <a href="http://facebook.com" target="_blank"">
+                            <i class=" fab fa-2x fa-facebook-square"></i>
+                        </a>
+                        <a href="http://twitter.com" target="_blank"">
+                            <i class=" fab fa-twitter fa-2x"></i>
+                        </a>
+                        <a href="http://linkedin.com" target="_blank"">
+                            <i class=" fab fa-linkedin fa-2x"></i>
+                        </a>
+                        <a href="http://instagram.com" target="_blank"">
+                            <i class=" fab fa-instagram fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------------------------FORMULARIO--------------------------------------------- -->
+    <section id="contacto" class="row justify-content-center my-5">
+        <div class="col-lg-6">
+            <form class="card p-5">
+                <h4 class="alternativeTitle">Completa tus datos!</h4>
+                <p>Llena el formulario para comenzar a recibir nuestras noticias</p>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email</label>
+                    <input placeholder="correo@correo.com" type="email" class="form-control" id="exampleInputEmail1"
+                        aria-describedby="emailHelp" required>
+                    <small id="emailHelp" class="form-text text-muted">No compartimos tus datos con nadie.</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputName1">Nombre</label>
+                    <input type="text" class="form-control" id="exampleInputName1" required>
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Estoy de acuerdo con los terminos y
+                        condiciones</label>
+                </div>
+                <button type="submit" class="btn btn-primary">enviar</button>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- --------------------------FOOTER---------------------------------------------------- -->
+    <!--<footer class="py-4 bg-white">
+        <!--<div class="jumbotron jumbotron-fluid footer " id="6">
+            <h1 class="display-4"> Fin del Viaje!!! </h1>
+            <p class="lead">Si llegaste hasta aquí es porque te gustó...Esperamos por seguir compartiendo lo mas lindo
+                de
+                las playas</p>
+            <hr class="my-4">
+            <p>Puedes seguirnos en nuestras redes sociales!!!.</p>
+            <hr>
+            <div class="card-text text-center">
+                <a href="http://facebook.com" target="_blank">
+                    <i class="fab fa-facebook-square fa-2x"></i>
+                </a>
+                <a href="http://twitter.com target=" _blank">
+                    <i class="fas fa-map-marker-alt map"></i>
+                </a>
+                <a href="http://linkedin.com target=" _blank">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+                <a href="http://instagram.com target=" _blank">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+                <br>
+                <br>
+                <a class="btn btn-primary btn-lg" href="#1" role="button"> Inicio </a>
+            </div>
+        </div>
+       
+    </footer>-->
+    
+    <footer class="bg-white text-dark py-3 text-justify">
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-sm-12 col-md-6 col-lg-3 my-4">
+                    <a href="http://facebook.com" target="_blank"><img src="img/redes/facebook.png"
+                            alt="Logo de Facebook" width="50px" height="50px"></a>
+                    <a href="http://instagram.com" target="_blank"><img src="img/redes/instagram.png" class="ml-2"
+                            alt="Logo de Instagram" width="50px" height="50px"></a>
+                    <a href="http://twitter.com" target="_blank"><img src="img/redes/twitter.png" class="ml-2"
+                            alt="Logo de Twitter" width="50px" height="50px"></a>
+                    <a href="http://linkedin.com" target="_blank""><img src=" img/redes/linkedin.png" class="ml-2"
+                        alt="Logo de Linkedin" width="50px" height="50px">
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 text-center ">
+                    <p class="alternativeTitle"><strong>¡Fin del Viaje!</strong></p>
+                    <p>Dejanos tus comentarios en nuestras redes sociales
+                        o tus datos para mayor información.</p>
+
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 text-center my-4">
+                    <a class="btn btn-primary btn-lg" href="#1" role="button"> Inicio </a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center my-3 container">&copy;Todos los Derechos son Reservados</div>
+    </footer>
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+body {
+    background-color: aquamarine;
+}
+#cozumel {
+    color: black;
+}
+@media (min-width: 700px) {
+    #carouselGon {
+        width: 700px;
+       margin-left: auto;
+       margin-right: auto;
+       text-align: center;
+
+    }
+}
+.card {
+    background-color: aquamarine !important;
+    border: none !important;
+    min-width: 200px;
+    max-width: 300px;
+}

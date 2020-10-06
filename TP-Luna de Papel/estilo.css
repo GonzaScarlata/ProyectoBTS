@@ -1,0 +1,132 @@
+/*----------------BODY----------------------------------  */
+body {
+    font-family: "Raleway", sans-serif;
+    background: #43c6ac; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #f8ffae, #43c6ac);
+    background: linear-gradient(to left, #f8ffae, #43c6ac);
+}
+
+/* ----------------ENCABEZADO--------------------------- */
+h1,
+.alternativeTitle {
+    font-family: "Ubuntu", sans-serif;
+}
+.header {
+    display: flex;
+    background: none;
+    background-image: url(https://info7rm.blob.core.windows.net.optimalcdn.com/images/2017/04/04/punta-cana-2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-origin: content-box;
+    height: 550px;
+    margin-bottom: 0px;
+}
+
+.header2 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------------BARRA DE NAVEGACION----------------------- */
+.barnav1 {
+    display: flex;
+    height: auto;
+    padding: 0px;
+    margin-bottom: 20px;
+    background: #43c6ac; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #f8ffae, #43c6ac);
+    background: linear-gradient(to left, #f8ffae, #43c6ac);
+}
+
+.barnav2 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.barnav3 a {
+    padding: 8px 20px;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+}
+
+.barnav3 a:hover {
+    color: #686868;
+}
+
+/* ------------------CARRUSEL DE FOTOS-------------------*/
+.text-body {
+    color: rgb(255, 0, 0);
+}
+
+@media (min-width: 700px) {
+    #carouselGon {
+        /*width: 1100px;*/
+        margin: auto;
+        text-align: center;
+        padding-top: 30px;
+    }
+}
+/*------------------ICONOS DE QUIEN SOMOS--------------- */
+.coloresIco {
+    border-radius: 15%;
+    background-color: #477867;
+}
+
+/*------------------MAIN CARDS DE LAS PLAYAS-------------*/
+.playascard {
+    padding-top: 70px;
+}
+
+.botonesMb {
+    margin-bottom: 2px;
+}
+
+/* ------------------CARDS INTEGRANTES------------------*/
+.card {
+    background-color: important;
+    border: none important;
+    min-width: 250px;
+    max-width: 400px;
+}
+.card-title {
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+#integrantes {
+    padding-top: 75px;
+}
+
+#integrantes .container .section-heading {
+    color: rgb(0, 0, 0);
+}
+
+#integrantes .container .sectipn-subheading {
+    color: rgb(0, 0, 0);
+}
+
+/* -------------------FOOTER------------------------------*/
+.piedepag {
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+#contacto {
+    padding-top: 70px;
+}
+
+.map {
+    width: 50px;
+}
+
+html {
+    scroll-behavior: smooth;
+}

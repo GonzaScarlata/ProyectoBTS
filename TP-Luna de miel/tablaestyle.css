@@ -1,0 +1,33 @@
+body {
+    font-family: "Raleway", sans-serif;
+    background: #43c6ac; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #f8ffae, #43c6ac);
+    background: linear-gradient(to left, #f8ffae, #43c6ac);
+}
+
+/*--------------Encabezado de la tabla-------------------*/
+.head-tabla {
+    display: flex;
+    background: none;
+    margin-bottom: 0px;
+    padding: 20px 0px;
+}
+
+/*------------BOTON CON COLAPSO----------------------------*/
+.mi-colapso {
+    color: black;
+    border: none;
+}
+
+/*----------------LA TABLA--------------------------------*/
+.mi-tabla {
+    display: flex;
+    width: 99%;
+    margin: 0px;
+    padding: 0px 35px;
+}
+
+/*----------BOTON VOLVER---------------------------------*/
+.btn-volver a:hover{
+    color: rgb(255, 183, 0);
+}
